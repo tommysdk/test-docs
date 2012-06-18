@@ -24,7 +24,7 @@ import java.lang.annotation.Target;
  * Used on test method parameters to label it with the specified name,
  * and to inject the specified value as the parameter value when the
  * test method is executed. The <tt>Input</tt> annotation properties
- * will be used to produce documentation for the specified method
+ * will be used to produce documentation for the specified method.
  *
  * @author Tommy Tynj&auml;
  */
