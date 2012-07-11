@@ -52,8 +52,8 @@ public class ProjectDescriptionGeneratingTest {
                         lf +
                         "The framework consists of a custom JUnit runner, a set of annotations and a class for " +
                         "outputting the documentation to a text file, that's all. You can easily override the " +
-                        "behaviour of the output file generation to suite your own needs. All contributions to " +
-                        "project are welcomed!" + lf +
+                        "behaviour of the output file generation to suite your own needs. Any contributions to " +
+                        "the project are obviously welcomed!" + lf +
                         lf +
                         "The output file will be placed in the " + TextFileResult.outputDirectory + " directory relative to your project base " +
                         "path, one text file per test class, with the fully qualified class name, suffixed by .txt as " +
@@ -110,7 +110,7 @@ public class ProjectDescriptionGeneratingTest {
                         lf +
                         "Wouldn't it be convenient to be able to document that expected string, as the input variable to " +
                         "the test? The test-docs framework allows you to declare method parameters with expected input. " +
-                        "You then annotate the parameters with @" + Input.class.getSimpleName() + ", assign a name for the parameter which will be used" +
+                        "You then annotate the parameters with @" + Input.class.getSimpleName() + ", assign a name for the parameter which will be used " +
                         "in the documentation, and a value which will be injected into the method parameter when the " +
                         "test is executed. For the example test case above, it will look like this:" + lf +
                         lf +

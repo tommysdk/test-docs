@@ -6,7 +6,7 @@ This project aims to provide an easy way to generate documentation from standard
 
 Good and well written unit tests already acts as an up-to-date documentation of the code's current state. So why not add a thin layer on top of the existing unit test framework, which doesn't require a whole lot of new syntax to be introduced? With Java annotations, the amount of new syntax needed to leverage from this framework is minimal. The annotations does not only provide documentation generation, but can also improve the readability of your unit tests.
 
-The framework consists of a custom JUnit runner, a set of annotations and a class for outputting the documentation to a text file, that's all. You can easily override the behaviour of the output file generation to suite your own needs. All contributions to project are welcomed!
+The framework consists of a custom JUnit runner, a set of annotations and a class for outputting the documentation to a text file, that's all. You can easily override the behaviour of the output file generation to suite your own needs. Any contributions to project are obviously welcomed!
 
 The output file will be placed in the target/docs/ directory relative to your project base path, one text file per test class, with the fully qualified class name, suffixed by .txt as filename. The file will contain input parameter names and values for each test method, as well as the test method output, all according to the usage of the test-docs annotations.
 
@@ -43,7 +43,7 @@ public void shouldParseString() {
 	Assert.assertEquals(123, Integer.parseInt(expected));
 }
 
-Wouldn't it be convenient to be able to document that expected string, as the input variable to the test? The test-docs framework allows you to declare method parameters with expected input. You then annotate the parameters with @Input, assign a name for the parameter which will be usedin the documentation, and a value which will be injected into the method parameter when the test is executed. For the example test case above, it will look like this:
+Wouldn't it be convenient to be able to document that expected string, as the input variable to the test? The test-docs framework allows you to declare method parameters with expected input. You then annotate the parameters with @Input, assign a name for the parameter which will be used in the documentation, and a value which will be injected into the method parameter when the test is executed. For the example test case above, it will look like this:
 
 @Test
 public void shouldParseString(@Input(name = "Number", value = "123") String expected) {

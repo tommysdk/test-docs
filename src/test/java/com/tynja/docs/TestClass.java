@@ -41,4 +41,9 @@ public class TestClass {
         return d;
     }
 
+    @Test
+    public ObjectWithVariousDocumentationOutputTypes shouldDocumentArbitraryObjectThroughTheirToStringMethods() {
+        return new ObjectWithVariousDocumentationOutputTypes();
+    }
+
 }
