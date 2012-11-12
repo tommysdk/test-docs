@@ -110,6 +110,18 @@
                 </executions>
             </plugin>
 
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-release-plugin</artifactId>
+            </plugin>
+
         </plugins>
     </build>
+
+    <scm>
+        <connection>scm:git:git://github.com/tommysdk/test-docs.git</connection>
+        <developerConnection>scm:git:git@github.com:tommysdk/test-docs.git</developerConnection>
+        <url>https://github.com/tommysdk/test-docs/tree/master/</url>
+    </scm>
+
 </project>
