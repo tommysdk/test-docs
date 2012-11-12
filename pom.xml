@@ -120,7 +120,7 @@
 
     <scm>
         <connection>scm:git://github.com/tommysdk/test-docs.git</connection>
-        <developerConnection>scm:https://github.com/tommysdk/test-docs.git</developerConnection>
+        <developerConnection>scm:git:https://github.com/tommysdk/test-docs.git</developerConnection>
         <url>https://github.com/tommysdk/test-docs/tree/master/</url>
     </scm>
 
