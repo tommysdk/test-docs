@@ -136,4 +136,11 @@
         <url>https://github.com/tommysdk/test-docs/tree/master/</url>
     </scm>
 
+    <distributionManagement>
+        <repository>
+            <id>local-disk</id>
+            <url>file:/Users/tommy/dev/tmp/</url>
+        </repository>
+    </distributionManagement>
+
 </project>
