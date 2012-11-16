@@ -8,6 +8,8 @@
     <packaging>jar</packaging>
 
     <name>test-docs</name>
+    <description>This project aims to provide an easy way to generate documentation from standard unit tests.</description>
+    <url>https://github.com/tommysdk/test-docs</url>
 
     <licenses>
         <license>
